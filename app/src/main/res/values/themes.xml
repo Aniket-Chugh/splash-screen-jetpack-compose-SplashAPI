@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Myapp" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/purple_700</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreenAPI</item>
+    </style>
+
+    <style name="Theme.SplashScreenAPI" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/purple_700</item>
+    </style>
+</resources>
